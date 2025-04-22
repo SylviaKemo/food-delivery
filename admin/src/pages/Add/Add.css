@@ -1,0 +1,84 @@
+.add {
+  width: 100%;
+  padding: 2.5rem 3rem;
+  background-color: #ffffff;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-img-upload {
+  align-items: center;
+  text-align: center;
+}
+
+.add-img-upload img {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  object-fit: contain;
+  border: 2px dashed #aaa;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.add-img-upload img:hover {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+.add input[type="text"],
+.add input[type="number"],
+.add textarea,
+.add select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.2s ease;
+}
+
+.add input:focus,
+.add textarea:focus,
+.add select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.add-product-description textarea {
+  resize: vertical;
+}
+
+.add-category-price {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.add-category,
+.add-price {
+  flex: 1;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
